@@ -1,14 +1,4 @@
 ﻿
-:root {
-    --header-color: #333333;
-    --main-color: #efeee7;
-    --border-color: #efeee7;
-    /*--border-color: #d8d8d4;*/
-    --text-color: #333333;
-    --accent-color: #5aada5;
-    --largetext-color: #5aada5;
-    --main-width: 1260px;
-}
 
 .clearfix::after {
     content: " ";
@@ -29,7 +19,7 @@ header {
     height: 70px;
     padding: 16px;
     padding-left: 33px;
-    color: var(--largetext-color);
+    color: var(--accent-color);
     /*border: 1px solid var(--border-color);*/
     font-size: 1.6em;
 }
@@ -84,7 +74,8 @@ img.port-image {
     top: 180px;
     width: 200px;
     height: 50px;
-    background-color: var(--accent-color);
+    /*background-color: var(--accent-color);*/
+    background-color: var(--accent-overlay-color);
     color: white;
 }
 
