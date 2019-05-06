@@ -10,13 +10,10 @@
     --main-width: 1260px;
 
     /* specified color - pail green */
-    /*--accent-color: rgba(90, 173, 165, 1.0);
-    --accent-overlay-color: rgba(90, 173, 165, 0.90);*/
+    --accent-color: rgba(90, 173, 165, 1.0);
+    --accent-overlay-color: rgba(90, 173, 165, 0.90);
     
     /* pesonal color - purple */
-    --accent-color: #9a34ea;
-    --accent-overlay-color: rgba(154, 52, 234, 0.90);
-}
-body
-{
+    /*--accent-color: #9a34ea;
+    --accent-overlay-color: rgba(154, 52, 234, 0.90);*/
 }

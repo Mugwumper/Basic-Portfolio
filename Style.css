@@ -1,15 +1,4 @@
 ﻿
-:root {
-    --header-color: #333333;
-    --main-color: #efeee7;
-    --border-color: #efeee7;
-    /*--border-color: #d8d8d4;*/
-    --text-color: #333333;
-    --accent-color: #5aada5;
-    --largetext-color: #5aada5;
-    --main-width: 1260px;
-}
-
 .clearfix::after {
     content: " ";
     display: block;
