@@ -88,17 +88,6 @@ main {
     border-top: 2px solid var(--border-color);
 }
 
-footer {
-    background-color: #6c6b6b;
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    color: #b0b0b0;
-    border-top: 8px solid var(--accent-color);
-    text-align: center;
-    font-family: Tahoma;
-}
-
 a:link, a:visited {
     background-color: white;
     color: black;
@@ -143,6 +132,30 @@ a:hover, a:active {
     content: "";
     clear: both;
     display: table;
+}
+
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 3rem; /* Footer height */
+}
+
+#footer {
+    background-color: #6c6b6b;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #b0b0b0;
+    border-top: 8px solid var(--accent-color);
+    text-align: center;
+    font-family: Tahoma;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem; /* Footer height */
 }
 
 
