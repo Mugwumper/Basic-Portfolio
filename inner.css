@@ -16,12 +16,13 @@ body
 
 header {
     background-color: white;
-    height: 70px;
+    /*height: 70px;*/
     padding: 16px;
     padding-left: 33px;
     color: var(--accent-color);
     /*border: 1px solid var(--border-color);*/
     font-size: 1.6em;
+    /*width: var(--main-width);*/
 }
 
 .container2 {
@@ -29,7 +30,9 @@ header {
     color: var(--text-color);
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.25em;
-    height: 100%;
+    /*height: 100%;
+    width: var(--main-width);*/
+    /*border: 1px solid var(--border-color);*/
 }
 
 .bio-text {
@@ -45,6 +48,13 @@ img.bio-image {
     margin-right: 10px;
 }
 
+main {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    /*border: 1px solid var(--border-color);*/
+}
 
 input[type=submit] {
     background-color: var(--accent-color);

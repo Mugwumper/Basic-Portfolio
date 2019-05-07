@@ -82,7 +82,7 @@ main {
 .form-text {
     margin-left: 3%;
     width: 93%;
-    padding-top: 2  0px;
+    padding-top: 20px;
     font-family: Tahoma;
     font-size: medium;
     border-top: 2px solid var(--border-color);
@@ -137,7 +137,7 @@ a:hover, a:active {
 
 #page-container {
     position: relative;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
 #content-wrap {
