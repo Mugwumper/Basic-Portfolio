@@ -1,0 +1,15 @@
+﻿
+
+:root {
+    --header-color: #333333;
+    --main-color: #f8f7f0;  
+    --border-color: #efeee7;
+    --text-color: #333333;
+    --largetext-color: #5a7bad;
+    /* width */
+    /*--main-width: 1260px;*/
+    --main-width: 960px;
+    --accent-color: rgb(177, 169, 248);
+    --accent-overlay-color: rgba(109, 110, 201, 0.774);
+    --accent-button-color: #6939b8;
+  }
